@@ -1,7 +1,8 @@
 ﻿using FC_RabbitMQ.Configuration;
+using FC_RabbitMQ.Messaging;
 using Microsoft.Extensions.Configuration;
 
-namespace FC_RabbitMQ.Messaging
+namespace FC_RabbitMQ
 {
     internal class Program
     {

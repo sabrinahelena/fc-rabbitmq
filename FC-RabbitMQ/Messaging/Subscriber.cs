@@ -3,7 +3,7 @@ using RabbitMQ.Client;
 using System.Text;
 using FC_RabbitMQ.Configuration;
 
-namespace FC_RabbitMQ;
+namespace FC_RabbitMQ.Messaging;
 
 /// <summary>
 /// Class responsible for subscribing to messages from RabbitMQ.
