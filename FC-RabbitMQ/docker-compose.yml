@@ -1,0 +1,10 @@
+version: '3'
+services:
+  rabbitmq:
+    image: rabbitmq:3-management
+    environment:
+      RABBITMQ_DEFAULT_USER: sasa
+      RABBITMQ_DEFAULT_PASS: sorvete123
+    ports:
+      - "15672:15672"
+      - "5672:5672"
